@@ -14,7 +14,8 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="fixed right-0 left-0 bottom-0   flex justify-center  items-center p-2 border border-black backdrop-blur-sm my-2 mx-1 rounded-sm lg:bottom-auto lg:justify-between z-20  " role="navigation">
+    <nav className="fixed right-0 left-0 bottom-0   flex justify-center  items-center p-2 border border-black backdrop-blur-xl my-2 mx-1 rounded-sm lg:bottom-auto lg:justify-between z-20 overflow-hidden  " role="navigation">
+      <div className="bg-white top-0 right-0 left-0 bottom-0 absolute -z-10 opacity-50  "/>
       {/* navbar title */}
       <div className=" hidden  lg:flex">
       <h1 className="font-semibold">Oussama</h1>
@@ -45,7 +46,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link href={""} className="flex flex-col items-center justify-center ">
-              <Gavel className="hover:fill-black" />
+              <Gavel className="" />
               <p className="hidden sm:flex " >Projects</p>
             </Link>
           </li>

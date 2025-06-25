@@ -4,8 +4,8 @@ const Footer = () => {
     const year = new Date().getFullYear();
   return (
 
-    <footer className='flex justify-center p-2'>
-        <p>All Rights Reserved {year} &copy; </p>
+    <footer className='flex justify-center  pb-20 md:pb-0'>
+        <p>All Rights Reserved {year} &copy;  </p>
     </footer>
   )
 }

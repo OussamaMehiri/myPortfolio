@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const Home = () => {
   return (
-    <div className=" flex flex-col md:flex-row p-2 gap md:gap-50  justify-around items-center  lg:pt-30 w-full">
+    <div className=" flex flex-col md:flex-row p-2 gap md:gap-50  justify-around items-center  lg:pt-30 w-full ">
       {/* Intro */}
       <div className="md:w-1/3">
         <h1 className="font-bold text-4xl">
