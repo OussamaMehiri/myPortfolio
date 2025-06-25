@@ -4,10 +4,10 @@ import {
   Bubbles,
   Gavel,
   House,
-  Info,
-  Moon,
+  // Info,
+  // Moon,
   NotepadText,
-  Waypoints,
+  // Waypoints,
 } from "lucide-react";
 import Link from "next/link";
 import React from "react";
@@ -27,49 +27,51 @@ const Navbar = () => {
         <ul className="flex flex-row gap-5
          ">
           <li>
-            <Link href={""} className="flex flex-col items-center justify-center ">
+            <Link href={"#home"} className="flex flex-col items-center justify-center ">
               <House className="hover:text-neutral-400 transition duration-150 "/>
               <p className="hidden  sm:flex" >Home</p>
             </Link>
           </li>
-          <li>
-            <Link href={""} className="flex flex-col items-center justify-center ">
+          {/* <li>
+            <Link href={"/app/pages/Home"} className="flex flex-col items-center justify-center ">
               <Info className=""/>
               <p className="hidden  sm:flex" >About Me</p>
             </Link>
-          </li>
+          </li> */}
           <li>
-            <Link href={""} className="flex flex-col items-center justify-center ">
+            <Link href={"#skills"} className="flex flex-col items-center justify-center ">
               <Bubbles className=""/>
               <p className="hidden  sm:flex" >Skills</p>
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link href={""} className="flex flex-col items-center justify-center ">
               <Gavel className="" />
               <p className="hidden sm:flex " >Projects</p>
             </Link>
-          </li>
+          </li> */}
           <li>
-            <Link href={""} className="flex flex-col items-center justify-center ">
+            <Link href={"#resume"} className="flex flex-col items-center justify-center ">
               <NotepadText className=""/>
               <p className="hidden  sm:flex" >Resume</p>
             </Link>
           </li>
-          <li>
-            <Link href={""} className="flex flex-col items-center justify-center ">
+          {/* <li>
+            <Link href={"#contact"} className="flex flex-col items-center justify-center ">
               <Waypoints className=""/>
-              <p className="hidden  sm:flex " >Contacts</p>
+              <p className="hidden  sm:flex " >Contact</p>
             </Link>
-          </li>
+          </li> */}
         </ul>
       </div>
       {/* CTA */}
       <div className="hidden gap-2  lg:flex">
-        <Button>
+        {/* <Button>
           <Moon />
-        </Button>
-        <Button>Work With ME</Button>
+        </Button> */}
+        <Link href={"#contact"}>
+                <Button className="cursor-pointer">Work With ME</Button>
+</Link>
       </div>
     </nav>
   );
