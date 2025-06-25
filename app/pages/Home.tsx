@@ -23,22 +23,22 @@ const Home = () => {
           alt={"me Coding"}
         />
         {/* roles */}
-        <div className="absolute px-2 py-2 rounded-md bg-primary top-1/2 -left-20 z-20 hover:border-1 hover:border-white">
+        <div className="md:flex absolute hidden px-2 py-2 rounded-md bg-primary top-1/2 -left-20 z-20 hover:border-1 hover:border-white">
           <p className="text-white">Frontend Dev</p>
         </div>
-        <div className="absolute px-2 py-2 rounded-md bg-primary top-1/2 -right-20 z-20 hover:border-1 hover:border-white">
+        <div className="md:flex absolute px-2 hidden py-2 rounded-md bg-primary top-1/2 -right-20 z-20 hover:border-1 hover:border-white">
           <p className="text-white">Backend Engineer</p>
         </div>
-        <div className="absolute px-2 py-2 rounded-md bg-primary top-1/3 -left-40 z-20 hover:border-1 hover:border-white">
+        <div className="md:flex absolute px-2 hidden py-2 rounded-md bg-primary top-1/3 -left-40 z-20 hover:border-1 hover:border-white">
           <p className="text-white">UI/UX Designer</p>
         </div>
-        <div className="absolute px-2 py-2 rounded-md bg-primary bottom-1/6 -left-40 z-20 hover:border-1 hover:border-white">
+        <div className="md:flex absolute px-2 hidden py-2 rounded-md bg-primary bottom-1/6 -left-40 z-20 hover:border-1 hover:border-white">
           <p className="text-white">Software Engineer</p>
         </div>
-        <div className="absolute px-2 py-2 rounded-md bg-primary bottom-1/5 -right-40 z-20 hover:border-1 hover:border-white">
+        <div className="md:flex absolute px-2 hidden py-2 rounded-md bg-primary bottom-1/5 -right-40 z-20 hover:border-1 hover:border-white">
           <p className="text-white">Mobile Developer</p>
         </div>{" "}
-        <div className="absolute px-2 py-2 rounded-md bg-primary top-1/5 -right-40 z-20 hover:border-1 hover:border-white">
+        <div className="md:flex absolute px-2 hidden py-2 rounded-md bg-primary top-1/5 -right-40 z-20 hover:border-1 hover:border-white">
           <p className="text-white">Problem Solver</p>
         </div>
       </div>
