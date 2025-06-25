@@ -7,7 +7,7 @@ import Skills from "./pages/Skills";
 
 export default function Portfolio() {
   return (
-    <div className="scroll-smooth flex-1 items-center flex-col justify-center text-center w-full h-full">
+    <div className="scroll-smooth flex-1 items-center flex-col justify-center text-center w-full h-full overflow-x-hidden">
       <section id="home">
         <Home />
       </section>
